@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+<title>Strona do potęgowania liczb zespolonych</title>
+
+<script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=AM_CHTML"> </script>
+
+</head>
+<body>
+
+(<input type="number" id="a"/> + <input type="number" id="b"/>i) <sup> <input type="number" id="c"/> + <input type="number" id="d"/>i </sup>
+
+<br><br>
+
+<script src="skrypt.js"></script>
+<button onclick="myFunction()">Oblicz potęgę liczby zespolonej</button>
+
+
+<h3><div id="wynik"></div></h3>
+
+
+<br><br>
+
+`(a+bi)^(c+di)=(a^2+b^2)^(c/2)×e^(-d×arg(a+ib))×(cos(c×arg(a+ib)+1/2d×ln(a^2+b^2))+isin(c×arg(a+ib)+1/2d×ln(a^2+b^2)))`
+
+</body>
+</html>
